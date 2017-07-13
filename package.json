@@ -1,0 +1,19 @@
+{
+  "name": "turbo-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "client": "node start-client.js",
+    "server": "babel-node server/server.js --watch --presets es2015,stage-2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "concurrently": "^3.5.0"
+  }
+}
