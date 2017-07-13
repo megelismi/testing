@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import '../styles/NavbarBasic.css';
+import '../../styles/NavbarSlider.css';
 
-class NavbarBasic extends Component {
+class NavbarSlider extends Component {
 
     constructor (props) {
         super(props);
@@ -43,4 +43,4 @@ class NavbarBasic extends Component {
   }
 }
 
-export default NavbarBasic;
+export default NavbarSlider;
