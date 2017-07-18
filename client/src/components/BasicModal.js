@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class Modal extends React.Component {
+class BasicModal extends React.Component {
 
   close(e) {
     e.preventDefault()
@@ -16,10 +16,10 @@ class Modal extends React.Component {
     return (
       <div>
         <div className="modal">{this.props.children}</div>
-        <div className="backdrop" onClick={e => this.close(e)}/>}
+        <div className="backdrop" onClick={e => this.close(e)}/>
       </div>
     )
   }
 }
 
-export default Modal;
+export default BasicModal;

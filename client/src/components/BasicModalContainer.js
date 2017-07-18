@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import Modal from './Modal';
+import Modal from './BasicModal';
 
-class ModalContainer extends Component {
+class BasicModalContainer extends Component {
   constructor(props) {
     super(props)
     this.state = { isModalOpen: false }
@@ -30,4 +30,4 @@ class ModalContainer extends Component {
 
 }
 
-export default ModalContainer;
+export default BasicModalContainer;
